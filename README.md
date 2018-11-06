@@ -1,4 +1,8 @@
 # My note - user selection
+
+**Demo:** [Netlify](https://clever-ardinghelli-6085dd.netlify.com/)
+
+
 With this sample you can write in a rich text editor and highlight and save parts of it.
 You can save a selected text by clicking the `Add` button or using one of these shortcuts:
 - ⌘ + ↵
