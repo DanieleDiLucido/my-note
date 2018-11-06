@@ -1,0 +1,34 @@
+@import './../scss/colors';
+@import './../scss/button';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.app {
+  height: 100vh;
+  min-width: 1024px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+  font-weight: 100;
+}
+.left-area{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  
+.title{
+  height: 50px;
+  background: $primary;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  h1{
+    color: $secondary;
+    padding: 0 10px;
+    letter-spacing: 5px;
+  }
+}
+}

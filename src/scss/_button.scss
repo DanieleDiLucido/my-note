@@ -1,0 +1,22 @@
+@import './colors';
+
+button{
+  border-radius: 2px;
+  background: transparent;
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+  font-weight: 100;
+  outline: none;
+  &.accent{
+    color: $accent;
+    border: 1px solid $accent;
+  }
+  &.primary{
+    color: $primary;
+    border: 1px solid $primary;
+  }  
+}
+button:active{
+  box-shadow: 1px 1px 1px;
+}

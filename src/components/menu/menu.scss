@@ -1,0 +1,49 @@
+@import './../../scss/colors';
+
+.menu {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: $primary;
+  position: relative;
+  color: $secondary;
+  background: $gray2;
+
+  .menu-title{
+    justify-content: space-around;
+    display: flex;
+    color: $secondary;
+    align-items: center;
+    letter-spacing: 5px;
+    height: 50px;
+    padding: 10px;
+    background: $accent;
+  }
+  .menu-content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 120px);
+
+    .tools{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      align-content: center;
+      padding: 15px;
+      height: 50px;
+    }
+    .list{
+      color:$accent;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      height: 100%;
+      padding: 10px;  
+      overflow-y:scroll;
+    }
+  }
+}

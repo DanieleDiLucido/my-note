@@ -1,0 +1,13 @@
+.color-selector{
+  padding: 0 10px;
+  position: relative;
+  .github-picker {
+    position: absolute !important;
+    z-index: 100;
+  }
+  .color-sample{
+    display: flex;
+    width: 30px;
+    height: 30px;
+  }
+}
